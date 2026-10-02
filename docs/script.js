@@ -353,3 +353,20 @@ document.getElementById("keyboard-cont").addEventListener("click", (e) => {
 
     document.dispatchEvent(new KeyboardEvent("keyup", { 'key': key }))
 })
+
+function resizeGame() {
+    const app = document.getElementById("app");
+
+    const designWidth = 500;
+    const designHeight = 900;
+
+    const scaleX = window.innerWidth / designWidth;
+    const scaleY = window.innerHeight / designHeight;
+
+    const scale = Math.min(scaleX, scaleY, 1);
+
+    app.style.setProperty("--game-scale", scale);
+}
+
+window.addEventListener("resize", resizeGame);
+resizeGame();
