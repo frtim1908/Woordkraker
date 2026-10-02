@@ -167,3 +167,9 @@ h1 {
 		margin: 1px;
 	}
 }
+
+#logo-dark-mode,
+#logo-light-mode {
+	max-width: 90%;
+	height: auto;
+}
