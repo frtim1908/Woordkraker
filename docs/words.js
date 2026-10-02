@@ -1,4 +1,4 @@
-const wordList = [
+const WORDS = [
   "AARDE", "AARDS", "ABCES", "ABDIJ", "ABDIS", "ABUIS", "ACTIE", "ACTOR", "ACUUT", "ADDER", 
   "ADEMT", "ADEPT", "ADIEU", "ADRES", "ADULT", "AFBAK", "AFBEL", "AFDAK", "AFDAM", "AFDEK", 
   "AFGOD", "AFHAK", "AFKAP", "AFKOM", "AFLEG", "AFRIT", "AFROL", "AFRUK", "AFVAL", "AFWAS", 
