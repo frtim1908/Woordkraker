@@ -54,7 +54,7 @@ function checkGuess() {
     if (score.Groen == 5) {
         solved = true
         document.getElementById("message").textContent = "Goed geraden!";
-        document.getElementById("yordi").style = "width: 10%"
+        document.getElementById("yordi").style = "width: 20%"
 
         let rows = document.querySelectorAll('.letter-row')
         rows.forEach(row => {
