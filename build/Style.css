@@ -1,0 +1,153 @@
+h1 {
+	text-align: center;
+	font-family: Montserrat;
+}
+
+.game-container {
+	display: grid;
+	grid-template-columns: 1fr auto 1fr;
+	align-items: start;
+	width: 100%;
+}
+
+#game-board {
+	grid-column: 2;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	font: icon;
+}
+
+.buttons {
+	grid-column: 3;
+	justify-self: start;
+	margin-left: 1rem;
+}
+
+.letter-box {
+	border: 2px solid gray;
+	border-radius: 3px;
+	margin: 2px;
+	font-size: 2.5rem;
+	font-weight: 700;
+	height: 3rem;
+	width: 3rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-transform: uppercase;
+}
+
+.filled-box-dark-mode {
+	border: 2px solid #cbd9f4;
+}
+
+.filled-box-light-mode {
+	border: 2px solid rgb(17, 19, 24);
+}
+
+.letter-row {
+	display: flex;
+}
+.score-row {
+	display: flex;
+}
+.red-box {
+	border: 2px solid gray;
+	border-radius: 3px;
+	margin: 2px;
+	font-size: 2.5rem;
+	font-weight: 700;
+	height: 3rem;
+	width: 3rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-transform: uppercase;
+	background-color: darkred;
+}
+
+.green-box {
+	border: 2px solid gray;
+	border-radius: 3px;
+	margin: 2px;
+	font-size: 2.5rem;
+	font-weight: 700;
+	height: 3rem;
+	width: 3rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-transform: uppercase;
+	background-color: green;
+}
+
+.yellow-box {
+	border: 2px solid gray;
+	border-radius: 3px;
+	margin: 2px;
+	font-size: 2.5rem;
+	font-weight: 700;
+	height: 3rem;
+	width: 3rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-transform: uppercase;
+	background-color: goldenrod;
+}
+
+.settings-btn {
+	font-size: 40px;
+	background: none;
+	cursor: pointer;
+	margin-top: 4%;
+	padding: 0px;
+	width: 60px !important;
+	border-radius: 10px;
+	height: 60px;
+}
+
+.settings-btn-dark-mode {
+	border: 4px solid #cbd9f4;
+	color: #cbd9f4;
+}
+
+.settings-btn-light-mode {
+	border: 4px solid rgb(17, 19, 24);
+	color: rgb(17, 19, 24);
+}
+
+.score-box {
+	color: white;
+}
+
+#keyboard-cont {
+	margin: 1rem 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#keyboard-cont div {
+	display: flex;
+}
+
+.second-row {
+	margin: 0.5rem 0;
+}
+
+.keyboard-button {
+	font-size: 1rem;
+	font-weight: 700;
+	padding: 0.5rem;
+	margin: 0 2px;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
+.keyboard-button-wrong {
+	background-color: rgba(239, 239, 239, 0.3);
+	color: darkred;
+	border-color: rgba(118, 118, 118, 0.3);
+}

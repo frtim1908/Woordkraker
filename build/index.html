@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WOORD500</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet" />
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://kit.fontawesome.com/62fd730e2c.js" crossorigin="anonymous"></script>
+</head>
+<body id="body" style="text-align: center">
+    <div>
+        <img id="logo-dark-mode" style="display: none; width: 428px; border: 10px solid #cbd9f4; border-radius: 24px;" src="https://i.imgur.com/78BmH2h.png">
+        <img id="logo-light-mode" style="width: 428px; border: 10px solid #111318; border-radius: 24px;" src="https://i.imgur.com/vcr9dUO.png">
+    </div>
+    
+    <img id="yordi" style="display: none;" src="https://donnamusic.nl/wp-content/uploads/2025/12/Yordi-Nogmaals-main.png" />
+    <p id="message"></p>
+
+    <div class="game-container">
+
+        <div id="game-board">
+        </div>
+
+        <div style="display: grid" class="buttons">
+            <button id="reset" class="fa-solid fa-eraser settings-btn settings-btn-light-mode"></button>
+            <button id="new" class="fa-solid fa-rotate settings-btn settings-btn-light-mode"></button>
+            <button id="mode" class="fa-solid fa-moon settings-btn settings-btn-light-mode"></button>
+        </div>
+
+    </div>
+    <div id="keyboard-cont">
+        <div class="first-row">
+            <button class="keyboard-button">Q</button>
+            <button class="keyboard-button">W</button>
+            <button class="keyboard-button">E</button>
+            <button class="keyboard-button">R</button>
+            <button class="keyboard-button">T</button>
+            <button class="keyboard-button">Y</button>
+            <button class="keyboard-button">U</button>
+            <button class="keyboard-button">I</button>
+            <button class="keyboard-button">O</button>
+            <button class="keyboard-button">P</button>
+        </div>
+        <div class="second-row">
+            <button class="keyboard-button">A</button>
+            <button class="keyboard-button">S</button>
+            <button class="keyboard-button">D</button>
+            <button class="keyboard-button">F</button>
+            <button class="keyboard-button">G</button>
+            <button class="keyboard-button">H</button>
+            <button class="keyboard-button">J</button>
+            <button class="keyboard-button">K</button>
+            <button class="keyboard-button">L</button>
+        </div>
+        <div class="third-row">
+            <button class="keyboard-button">Del</button>
+            <button class="keyboard-button">Z</button>
+            <button class="keyboard-button">X</button>
+            <button class="keyboard-button">C</button>
+            <button class="keyboard-button">V</button>
+            <button class="keyboard-button">B</button>
+            <button class="keyboard-button">N</button>
+            <button class="keyboard-button">M</button>
+            <button class="keyboard-button">Enter</button>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynxS7ogEvDej/m4="
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script src="script.js" type="module"></script>
+</body>
+</html>
