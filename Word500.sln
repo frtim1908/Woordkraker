@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37710.0 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Word500", "..\..\..\Documents\Projects\Word500\", "{483AD54C-4573-4C08-4BA0-B92E2C171D67}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_49216"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\Documents\Projects\Word500\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49216\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_49216"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\Documents\Projects\Word500\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49216\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49216"
+		SlnRelativePath = "..\..\..\Documents\Projects\Word500\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{483AD54C-4573-4C08-4BA0-B92E2C171D67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{483AD54C-4573-4C08-4BA0-B92E2C171D67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {018AC4F2-0B97-4E62-835E-1CACB4AAE6AE}
+	EndGlobalSection
+EndGlobal
