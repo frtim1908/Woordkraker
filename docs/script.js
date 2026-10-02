@@ -221,6 +221,7 @@ function resetColours() {
     boxes.forEach(box => {
         const letter = box.textContent;
         box.classList.remove("red-box", "yellow-box", "green-box");
+        box.dataset.color = "";
         if (letter !== "" && redLetters.has(letter)) {
             box.dataset.color = "red";
             box.classList.remove("yellow-box", "green-box");
