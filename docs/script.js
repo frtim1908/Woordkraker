@@ -77,8 +77,7 @@ function checkGuess() {
             })
         })
     }
-
-    if (guessesRemaining == 0) {
+    else if (guessesRemaining == 0) {
         document.getElementById("message").textContent = "Niet geraden! Het juiste antwoord was " + rightGuessString;
     }
 }
