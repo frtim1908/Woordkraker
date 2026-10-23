@@ -113,7 +113,7 @@ function initBoard() {
             let box = document.createElement("div")
             box.className = "letter-box"
             box.addEventListener("click", () => {
-                if (solved) {
+                if (solved || guessesRemaining == 0) {
                     return
                 }
 
@@ -329,6 +329,11 @@ function switchMode() {
     }
 }
 
+function giveUp() {
+    document.getElementById("message").textContent = "Niet geraden! Het juiste antwoord was " + rightGuessString;
+    guessesRemaining = 0
+}
+
 document.getElementById("reset").addEventListener("click", () => {
     resetColours();
     document.getElementById("new").blur();
@@ -340,6 +345,10 @@ document.getElementById("new").addEventListener("click", () => {
 document.getElementById("mode").addEventListener("click", () => {
     switchMode();
     document.getElementById("mode").blur();
+});
+document.getElementById("end").addEventListener("click", () => {
+    giveUp();
+    document.getElementById("end").blur();
 });
 
 document.getElementById("keyboard-cont").addEventListener("click", (e) => {

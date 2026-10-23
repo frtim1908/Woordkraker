@@ -191,8 +191,9 @@ body {
 .keyboard-button {
 	font-size: 1rem;
 	font-weight: 700;
+	min-width: 2.5rem;
 	padding: 0.5rem;
-	margin: 0 2px;
+	margin: 0px;
 	cursor: pointer;
 	text-transform: uppercase;
 	touch-action: none;
